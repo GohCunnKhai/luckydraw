@@ -34,6 +34,9 @@ dependencies:
   excel: ^2.0.4
   confetti: 0.8.0
   flutter_fortune_wheel: ^1.2.0
+  shared_preferences: ^2.2.2
+  pdf: ^3.6.6
+  printing: ^5.10.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,6 +64,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+  - assets/images/key.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
